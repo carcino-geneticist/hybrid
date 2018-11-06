@@ -1,6 +1,6 @@
 local system = require 'system/init'
 local display = require 'display/init'
-local map = require 'game/map'
+--local map = require 'game/map'
 
 local debug = system.debug
 local game = {}
