@@ -1,8 +1,8 @@
 -- the actual configuration
-local grid_width = 28
-local grid_height = 14
-local grid_cell_width = 19
-local grid_cell_height = 32
+local grid_width = 24
+local grid_height = 18
+local grid_cell_width = 22
+local grid_cell_height = 28
 
 
 

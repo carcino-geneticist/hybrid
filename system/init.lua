@@ -8,12 +8,18 @@ sys.settings = {
 	grid_cell_width = 19,	--
 	grid_cell_height = 32,	-- used to determine display size
 
+	color = {
+		default = {1,1,1,1}
+	},
+
 	debug = false		-- print debug messages
 }
 conf.configure(sys.settings)
 
 -- room for potential abstraction
 sys.graphics = love.graphics
+sys.keyboard = love.keyboard
+sys.mouse = love.mouse
 
 -- logging
 function sys.debug(messages)
