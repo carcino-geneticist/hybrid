@@ -31,4 +31,14 @@ function sys.debug(messages)
 	io.write(message.."\n")
 end
 
+-- game states
+local game_state = "ingame"
+function sys.setState(state)
+	game_state = state
+end
+
+function sys.getState()
+	return game_state
+end
+
 return sys
